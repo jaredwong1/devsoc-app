@@ -1,52 +1,52 @@
 * {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #9fc5e8;
+    background-color: lightyellow;
 }
 
-.header {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-weight: normal;
-    font-size: small;
-}
 .profile {
+    background-color: lightyellow;
     text-align: center;
-    background-color: #89ba73;
     font-weight: bold;
-    font-size: 50px;
-    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-position: top;
+    background-size: cover; 
+    background-image: url(./img/earth.png);
+    background-attachment: fixed;
 }
 
-.info {
-    background-color:#93c47d;
-}
 
 .profile div {
-    margin-top: 20px;
+    color: white;
+    padding-bottom: 40px;
     font-size: medium;
     font-weight: 400;
-    background-color: #89ba73;
+    background-color: transparent;
+}
+
+.profile #name {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 100px;
+    color: white;
+}
+
+.profile img {
+    padding-top: 30px;
 }
 
 .info {
-    background-color:#93c47d;
     padding: 20px;
 }
 
-ul, li, details {
-    background-color:#93c47d;
-}
 
 details div{
     padding-bottom: 30px;
     margin-left: 30px;
-    background-color:#93c47d;
 }
 
 details summary {
-    background-color:#93c47d;
     font-size: xx-large;
     font-weight: 400;
     margin: 0px 20px;
